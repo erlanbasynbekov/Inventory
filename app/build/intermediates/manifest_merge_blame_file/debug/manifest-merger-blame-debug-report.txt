@@ -1,0 +1,107 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.inventory"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\erlan\AndroidStudioProjects\Inventory\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\erlan\AndroidStudioProjects\Inventory\app\src\main\AndroidManifest.xml
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] C:\Users\erlan\.gradle\caches\transforms-3\cf55dbd42162dc3ff56438ccf124c665\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.inventory.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] C:\Users\erlan\.gradle\caches\transforms-3\cf55dbd42162dc3ff56438ccf124c665\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] C:\Users\erlan\.gradle\caches\transforms-3\cf55dbd42162dc3ff56438ccf124c665\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.inventory.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] C:\Users\erlan\.gradle\caches\transforms-3\cf55dbd42162dc3ff56438ccf124c665\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\erlan\.gradle\caches\transforms-3\cf55dbd42162dc3ff56438ccf124c665\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\Users\erlan\AndroidStudioProjects\Inventory\app\src\main\AndroidManifest.xml:4:5-21:19
+18        android:name="com.example.inventory.InventoryApplication"
+18-->C:\Users\erlan\AndroidStudioProjects\Inventory\app\src\main\AndroidManifest.xml:5:9-66
+19        android:allowBackup="true"
+19-->C:\Users\erlan\AndroidStudioProjects\Inventory\app\src\main\AndroidManifest.xml:6:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.9.0] C:\Users\erlan\.gradle\caches\transforms-3\cf55dbd42162dc3ff56438ccf124c665\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Users\erlan\AndroidStudioProjects\Inventory\app\src\main\AndroidManifest.xml:7:9-43
+23        android:label="@string/app_name"
+23-->C:\Users\erlan\AndroidStudioProjects\Inventory\app\src\main\AndroidManifest.xml:8:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->C:\Users\erlan\AndroidStudioProjects\Inventory\app\src\main\AndroidManifest.xml:9:9-54
+25        android:supportsRtl="true"
+25-->C:\Users\erlan\AndroidStudioProjects\Inventory\app\src\main\AndroidManifest.xml:10:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.InventoryApp" >
+27-->C:\Users\erlan\AndroidStudioProjects\Inventory\app\src\main\AndroidManifest.xml:11:9-50
+28        <activity
+28-->C:\Users\erlan\AndroidStudioProjects\Inventory\app\src\main\AndroidManifest.xml:12:9-19:20
+29            android:name="com.example.inventory.MainActivity"
+29-->C:\Users\erlan\AndroidStudioProjects\Inventory\app\src\main\AndroidManifest.xml:14:13-62
+30            android:exported="true" >
+30-->C:\Users\erlan\AndroidStudioProjects\Inventory\app\src\main\AndroidManifest.xml:13:13-36
+31            <intent-filter>
+31-->C:\Users\erlan\AndroidStudioProjects\Inventory\app\src\main\AndroidManifest.xml:15:13-18:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\Users\erlan\AndroidStudioProjects\Inventory\app\src\main\AndroidManifest.xml:16:17-69
+32-->C:\Users\erlan\AndroidStudioProjects\Inventory\app\src\main\AndroidManifest.xml:16:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\Users\erlan\AndroidStudioProjects\Inventory\app\src\main\AndroidManifest.xml:17:17-77
+34-->C:\Users\erlan\AndroidStudioProjects\Inventory\app\src\main\AndroidManifest.xml:17:27-74
+35            </intent-filter>
+36        </activity>
+37
+38        <uses-library
+38-->[androidx.window:window:1.0.0] C:\Users\erlan\.gradle\caches\transforms-3\74d4e2821fd9e2a788698edf4a7c36d8\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+39            android:name="androidx.window.extensions"
+39-->[androidx.window:window:1.0.0] C:\Users\erlan\.gradle\caches\transforms-3\74d4e2821fd9e2a788698edf4a7c36d8\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+40            android:required="false" />
+40-->[androidx.window:window:1.0.0] C:\Users\erlan\.gradle\caches\transforms-3\74d4e2821fd9e2a788698edf4a7c36d8\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+41        <uses-library
+41-->[androidx.window:window:1.0.0] C:\Users\erlan\.gradle\caches\transforms-3\74d4e2821fd9e2a788698edf4a7c36d8\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+42            android:name="androidx.window.sidecar"
+42-->[androidx.window:window:1.0.0] C:\Users\erlan\.gradle\caches\transforms-3\74d4e2821fd9e2a788698edf4a7c36d8\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+43            android:required="false" />
+43-->[androidx.window:window:1.0.0] C:\Users\erlan\.gradle\caches\transforms-3\74d4e2821fd9e2a788698edf4a7c36d8\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+44
+45        <provider
+45-->[androidx.emoji2:emoji2:1.2.0] C:\Users\erlan\.gradle\caches\transforms-3\7157a9ca235e80cd265b8e4bcfc1fa9c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+46            android:name="androidx.startup.InitializationProvider"
+46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\erlan\.gradle\caches\transforms-3\7157a9ca235e80cd265b8e4bcfc1fa9c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+47            android:authorities="com.example.inventory.androidx-startup"
+47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\erlan\.gradle\caches\transforms-3\7157a9ca235e80cd265b8e4bcfc1fa9c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+48            android:exported="false" >
+48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\erlan\.gradle\caches\transforms-3\7157a9ca235e80cd265b8e4bcfc1fa9c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+49            <meta-data
+49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\erlan\.gradle\caches\transforms-3\7157a9ca235e80cd265b8e4bcfc1fa9c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+50                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\erlan\.gradle\caches\transforms-3\7157a9ca235e80cd265b8e4bcfc1fa9c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+51                android:value="androidx.startup" />
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\erlan\.gradle\caches\transforms-3\7157a9ca235e80cd265b8e4bcfc1fa9c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+52            <meta-data
+52-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\erlan\.gradle\caches\transforms-3\c947eaa01e897d6d762fe971499920d9\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+53                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+53-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\erlan\.gradle\caches\transforms-3\c947eaa01e897d6d762fe971499920d9\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+54                android:value="androidx.startup" />
+54-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\erlan\.gradle\caches\transforms-3\c947eaa01e897d6d762fe971499920d9\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+55        </provider>
+56
+57        <service
+57-->[androidx.room:room-runtime:2.4.3] C:\Users\erlan\.gradle\caches\transforms-3\d037e18821962ec5b41db58a82beca34\transformed\room-runtime-2.4.3\AndroidManifest.xml:25:9-28:40
+58            android:name="androidx.room.MultiInstanceInvalidationService"
+58-->[androidx.room:room-runtime:2.4.3] C:\Users\erlan\.gradle\caches\transforms-3\d037e18821962ec5b41db58a82beca34\transformed\room-runtime-2.4.3\AndroidManifest.xml:26:13-74
+59            android:directBootAware="true"
+59-->[androidx.room:room-runtime:2.4.3] C:\Users\erlan\.gradle\caches\transforms-3\d037e18821962ec5b41db58a82beca34\transformed\room-runtime-2.4.3\AndroidManifest.xml:27:13-43
+60            android:exported="false" />
+60-->[androidx.room:room-runtime:2.4.3] C:\Users\erlan\.gradle\caches\transforms-3\d037e18821962ec5b41db58a82beca34\transformed\room-runtime-2.4.3\AndroidManifest.xml:28:13-37
+61    </application>
+62
+63</manifest>

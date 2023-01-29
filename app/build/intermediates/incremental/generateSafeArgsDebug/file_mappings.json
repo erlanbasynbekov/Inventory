@@ -1,0 +1,1 @@
+[{"navFile":"src\\main\\res\\navigation\\nav_graph.xml","javaFiles":["com.example.inventory.ItemListFragmentDirections","com.example.inventory.ItemDetailFragmentDirections","com.example.inventory.ItemDetailFragmentArgs","com.example.inventory.AddItemFragmentDirections","com.example.inventory.AddItemFragmentArgs"]}]
